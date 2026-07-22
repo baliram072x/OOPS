@@ -1,5 +1,4 @@
 
-
 public class OOPS{
     public static void main(String[] args) {
         Pen p1 = new Pen(); // constructor and we created a object name p1
@@ -15,18 +14,16 @@ public class OOPS{
 }
 
 class Pen{
-// properties and functions
-int tip;
-String color;
+    // properties and functions
+    int tip;
+    String color;
 
-void setColor(String newColor){
-    color = newColor;
-}
-
-void setTip(int newTip){
-    tip = newTip;
-}
-
+    void setColor(String newColor){
+        color = newColor;
+    }
+    void setTip(int newTip){
+        tip = newTip;
+    }
 }
 
 class Student {
